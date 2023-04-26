@@ -15,10 +15,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - DeadZone
+  - Water
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 383555231
+    locked: 0
+  - name: Midground
+    uniqueID: 2301740079
+    locked: 0
+  - name: Frontground
+    uniqueID: 2247006475
     locked: 0

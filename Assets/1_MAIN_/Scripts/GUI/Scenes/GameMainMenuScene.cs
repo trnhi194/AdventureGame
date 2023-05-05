@@ -65,7 +65,6 @@ namespace MainGame
                         btnOption.transform.DOScale(Vector3.one, 0.25f).SetEase(Ease.OutBounce).OnComplete(() =>
                         {
                             btnQuit.transform.DOScale(Vector3.one, 0.25f).SetEase(Ease.OutBounce);
-                            knightAnim.SetTrigger()
                         });
                     });
                 });
